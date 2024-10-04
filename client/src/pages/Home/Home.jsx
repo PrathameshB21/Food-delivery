@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // import Header from '../../Components/Navbar/Header/Header'
 // import Navbar from '../../Components/Navbar'
 import Header from './../../Components/Header/Header'
-import ExploreMenu from '../../Components/ExploreMenu/exploreMenu'
+import ExploreMenu from '../../Components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../Components/FoodDisplay/FoodDisplay';
 import Footer from '../../Components/Footer/Footer';
 
