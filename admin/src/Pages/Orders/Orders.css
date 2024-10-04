@@ -1,0 +1,41 @@
+.order{
+    height: 100vh;
+  
+   width: 100vw;
+   
+    
+}
+h3{
+    font-size: 4vh;
+    font-weight: 500;
+    
+}
+.order-item{
+    display: flex;
+    /* padding: 5vh 1vw; */
+    border: 1px solid black;
+    margin: 40px 10px;
+    
+}
+.order-item img{
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.order-item-food{
+    padding: 1vh 1vw;
+}
+.order-item-food b{
+    font-size: 2.8vh;
+}
+.order-item-food p{
+    font-size: 2.5vh;
+}
+.hr{
+    padding: 1vh 0vw;
+}
+select{
+    font-size: 2.5vh;
+    padding: 0.5vh 0.5vw;
+}

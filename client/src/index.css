@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gabarito;
+}
+body{
+  min-height:100vh ;
+
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.app{
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes FadeIn {
+  0%{
+    opacity: 0;
+
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}
+@keyframes FadeBg {
+  0%{
+    opacity: 1;
+
+  }
+  100%{
+    opacity: 0.8;
+  }
+  
+}
+
+@media (min-width:350px) and (max-width:900px) {
+  .app{
+    width: 100%;
+    margin: auto;
+  }
+  
+}
+

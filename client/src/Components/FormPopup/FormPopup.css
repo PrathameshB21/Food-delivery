@@ -1,0 +1,127 @@
+.form-popup{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #00000090;
+    display: grid;
+}
+.login-popup-container{
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    width: 25vw;
+    border-radius: 15px;
+    place-self: center;
+    text-align: center;
+}
+.login-title{
+     display: flex;
+     gap: 8vw;
+     align-items: center;
+     text-align: center;
+     padding: 1.5vh 10vw;
+}
+.login-title img{
+    width: 2vw;
+    height: 2vh;
+}
+.login-input-fields{
+    display: flex;
+    flex-direction: column;
+    /* width: 20vw; */
+    padding: 1vh 1vw;
+
+}
+.login-input-fields input{
+    font-size: 2vh;
+    
+        margin: 0vh 1.5vw;
+        padding: 1.2vh 1vw;
+ 
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.365);
+    border-radius: 18px;
+   width: 20vw;
+}
+.login-input-fields :placeholder-shown{
+    text-align: center;
+    
+}
+.primart-btn button{
+    height: 6vh;
+    width: 20vw;
+    background-color:#FE6C2B;
+    outline: none;
+    border: 1px solid rgb(255, 38, 0);
+    border-radius: 8px;
+    font-size: 2vh;
+    font-weight: 600;
+    color: aliceblue;
+    margin: 2vh 0vw;
+}
+.login-popup-condition{
+    color: rgb(35, 35, 35);
+}
+.login-popup-condition button{
+    margin: 1vh 1vw;
+    height: 5vh;
+    width: 7vw;
+    background-color: rgb(50, 45, 43);
+    color: white;
+    font-size: 1.8vh;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+@media (min-width: 350px) and (max-width: 900px) {
+    .form-popup {
+        position: absolute;
+        height: 100%; /* Full height to cover the screen */
+        width: 100%;  /* Full width to cover the screen */
+        z-index: 1;
+        background-color: #00000090;
+        display: grid;
+    }
+
+    .login-popup-container {
+        background-color: rgb(255, 255, 255);
+        height: 60vh;  /* Adjusted height for smaller screens */
+        width: 85vw;   /* Width in viewport units */
+        border-radius: 15px;
+        place-self: center;
+        text-align: center;
+    }
+
+    .login-title {
+        display: flex;
+        gap: 20vw;   /* Reduced gap for smaller screens */
+        align-items: center;
+        text-align: center;
+        padding: 1.5vh 30vw;
+    }
+
+    .login-title img {
+        width: 5vw;   /* Adjusted size */
+        height: auto; /* Allow proportional scaling */
+    }
+
+    .login-input-fields input {
+        font-size: 2vh;  /* Ensure font size remains readable */
+        margin: 0vh 5vw;
+        padding: 1.2vh 1vw;
+        width: 70vw;     /* Adjusted input width for smaller screens */
+    }
+
+    .primart-btn button {
+        height: 6vh;
+        width: 70vw;     /* Adjusted button width */
+        font-size: 2vh;
+    }
+
+    .login-popup-condition button {
+        margin: 1vh 1vw;
+        height: 5vh;
+        width: 40vw;    /* Adjusted width */
+        font-size: 1.8vh;
+    }
+}

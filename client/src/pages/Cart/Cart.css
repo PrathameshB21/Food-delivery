@@ -1,0 +1,152 @@
+.cart{
+    margin: 10vh 0vw;
+}
+.table-titles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    font-size: 2vh;
+    margin-top:1.5vh;
+}
+
+.cart-item-list img{
+    width: 5vw;
+    border-radius: 1vw;
+    
+}
+.cart-item-list button{
+    width: 3vw;
+    height: 5vh;
+    margin-left: 1.8vw;
+   background-color: transparent;
+    outline: none;
+    border: 1px solid #c95421;
+    color: #FE6C2B;
+    border-radius: 10px;
+    font-size: 20px;
+   
+    
+}
+.cart-item-list h2 {
+    color: green;
+
+}
+.cart-item-list h3{
+    font-size: 3vh;
+    color: rgb(65, 64, 64);
+  
+
+}
+.total-cart-table{
+    background-color: #efeded76;
+}
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 1vw;
+}
+.delivery-charges{
+    display: flex;
+    justify-content: space-between;padding: 1vh 1vw;
+}
+.All-total{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 1vw;
+}
+.promo-code-section{
+    margin-left: 32vw;
+    flex: 1;
+}
+.promo-code-section p{
+    font-size: 2vh;
+   
+    
+}
+.promo-input{
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    height: 3vh;
+}
+.promo-code-section input {
+    padding: 0.2vh 1vw;
+    margin-top: 0.2vh;
+    width:15vw;
+    color:rgb(40, 39, 39);
+    outline: none;
+    font-size: 2vh;
+    border: none;
+    background-color: transparent;
+
+}
+.promo-code-section button{
+    background-color: rgb(40, 39, 39);
+    color: #fffdfc;
+    padding:0.5vh 1vw;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+.total-submit-btn{
+    width: 20vw;
+    height: 5vh;
+    
+   background-color: transparent;
+    outline: none;
+    border: 1px solid #331306;
+    background-color: #FE6C2B;
+    color: #ffffff;
+    border-radius: 9px;
+    font-size: 20px;
+    margin:1vh 30.8vw; 
+   
+}
+@media (min-width:350px) and (max-width:900px){
+    .total-submit-btn{
+        width: 20vw;
+    height: 10vh;
+    }
+    .table-titles{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr  ;
+        align-items: center;
+        text-align: center;
+        font-size: 12px;
+        margin-top:1.5vh;
+    }.cart-item-list img{
+        width: 12vw;
+       
+        
+    }
+    .cart-item-list button{
+       height:4vh;
+      
+    }
+    .cart-item-list h2 {
+        color: green;
+    
+    }
+    .cart-item-list h3{
+        font-size: 2vh;
+        color: rgb(65, 64, 64);
+      
+    
+    }
+    .total-submit-btn{
+        width: 30vw;
+        height: 5vh;
+        
+       background-color: transparent;
+        outline: none;
+        border: 1px solid #331306;
+        background-color: #FE6C2B;
+        color: #ffffff;
+        border-radius: 9px;
+        font-size: 15px;
+        margin:1vh 35vw; 
+       
+    }
+    
+}

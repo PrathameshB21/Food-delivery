@@ -1,0 +1,70 @@
+.ExploreMenu{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0vw ;
+}
+.ExploreMenu h2{
+    font-size: 7vh;
+    padding: 2vh 0vw;
+    color: #ff390c;
+    font-weight:700;
+}
+.ExploreMenu p{
+    font-size: 3vh;
+    color: #27374D;
+}
+.explore-menu-list{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 2vh 0vw;
+  gap: 4.5vw;
+  overflow-x: scroll;
+  outline: none;
+  
+   
+}
+
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.menu-item-list-items{
+    
+    border: none;
+}
+
+.menu-item-list-items img{
+    height: 16vh;
+    
+    width: auto;
+    
+}
+.menu-item-list-items p{
+   font-size:3vh;
+   font-weight: 300;
+   color: #27374D;
+}
+.menu-item-list-items .Active{
+    border: solid 3.5px #ff390c;
+   
+    border-radius: 9vw;
+}
+@media (min-width:350px)and (max-width:950px) {
+    .ExploreMenu h2{
+        font-size:5vh;
+        padding: 2vh 0vw;
+        color: #ff390c;
+        font-weight:700;
+    }
+    .ExploreMenu p{
+        font-size: 2vh;
+        color: #27374D;
+    }
+    .menu-item-list-items img{
+        height: 12vh;
+         width: auto;
+        
+    }
+    
+}

@@ -1,0 +1,149 @@
+.order-placed-wrapper {
+    /* border: 1px solid rgba(0, 0, 0, 0.183); */
+    padding: 5vh 1vw;
+    display: flex;
+    flex-direction: row;
+    height: 65vh;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.order-placed-left-container {
+    display: flex;
+    flex-direction: column;
+    width: 38vw;
+    gap: 10px;
+
+}
+
+.Handel-Input input {
+
+    width: 15vw;
+    height: 4vh;
+    margin: 1vh 0.5vw;
+    outline: none;
+    font-size: 2.2vh;
+    color: rgb(78, 78, 78);
+    padding: 0.5vh 0.5vw;
+    border: 1px solid rgba(0, 0, 0, 0.372);
+    border-radius: 5px;
+}
+
+.adress-section input {
+    width: 31vw;
+    height: 4vh;
+    margin: 1vh 0.5vw;
+    outline: none;
+    font-size: 2.2vh;
+    color: rgb(78, 78, 78);
+    padding: 0.5vh 0.5vw;
+    border: 1px solid rgba(0, 0, 0, 0.372);
+    border-radius: 5px;
+}
+
+.Phone-Input {
+    width: 15vw;
+    height: 4vh;
+    margin: 1vh 0.5vw;
+    outline: none;
+    font-size: 2.2vh;
+    color: rgb(78, 78, 78);
+    padding: 0.5vh 0.5vw;
+    border: 1px solid rgba(0, 0, 0, 0.372);
+    border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* ----------------------------------------------------------------------- */
+.order-placed-right-container .total-cart-table {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 25vw;
+    margin: 5vh 0vw;
+    border: 1px solid #331306;
+    border-radius: 15px;
+
+}
+
+.order-placed-right-container button {
+    padding: 1vh 2vw;
+    outline: none;
+    border: 1px solid #331306;
+    background-color: #FE6C2B;
+    color: #ffffff;
+    border-radius: 9px;
+    font-size: 20px;
+    margin: 1vh 5vw;
+}
+
+@media (min-width:350px) and (max-width:900px) {
+    .order-placed-wrapper {
+        /* padding: 5vh 2vw; */
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        align-items: center;
+        
+    }
+    .order-placed-left-container {
+        display: flex;
+        flex-direction: column;
+        width:55vw;
+        gap: 20px;
+        
+        
+    }
+    .order-placed-right-container .total-cart-table {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 50vw;
+        margin: 5vh 1vw;
+        border: 1px solid #331306;
+        border-radius: 15px;
+    
+    }
+    .Handel-Input input {
+
+        width: 25vw;
+        height: 4vh;
+        margin: 1vh 0.5vw;
+        outline: none;
+        font-size: 2.2vh;
+        color: rgb(78, 78, 78);
+        padding: 0.5vh 0.5vw;
+        border: 1px solid rgba(0, 0, 0, 0.372);
+        border-radius: 5px;
+    }
+    .adress-section input {
+        width: 50vw;
+        height: 4vh;
+        margin: 1vh 0.5vw;
+        outline: none;
+        font-size: 2.2vh;
+        color: rgb(78, 78, 78);
+        padding: 0.5vh 0.5vw;
+        border: 1px solid rgba(0, 0, 0, 0.372);
+        border-radius: 5px;
+    }
+    
+    .Phone-Input {
+        width:50vw;
+        height: 4vh;
+        margin: 1vh 0.5vw;
+        outline: none;
+        font-size: 2.2vh;
+        color: rgb(78, 78, 78);
+        padding: 0.5vh 0.5vw;
+        border: 1px solid rgba(0, 0, 0, 0.372);
+        border-radius: 5px;
+    }
+    
+}

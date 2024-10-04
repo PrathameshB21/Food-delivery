@@ -1,0 +1,25 @@
+.food-display{
+   margin-top: 5vh;
+}
+.food-display h2{
+    font-size: 3.5vw;
+    color: #ff390c;;
+}
+.food-display-list{
+   display: grid;
+   
+   grid-template-columns: repeat(auto-fill,minmax(30vh,1fr));
+   margin-top:5vh;
+   gap:6vw;
+   row-gap: 2vh;
+}
+@media (max-width:650px) {
+   .food-display-list{
+      display: grid;
+      
+      grid-template-columns: repeat(auto-fill,minmax(30vh,1fr));
+      margin-top:4vh;
+      gap:4vw;
+      row-gap: 4vh;
+   }
+}

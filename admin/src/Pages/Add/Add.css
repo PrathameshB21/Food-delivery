@@ -1,0 +1,154 @@
+.add {
+    margin: 5vh 5vw;
+    background-color: rgba(255, 253, 253, 0.326);
+    font-size: 2.7vh;
+    font-weight: 450;
+    width: 50vw;
+    height: 80vh;
+}
+
+.add-imgae-upload img {
+    height:15vh;
+    width: auto;
+    margin: 1vh 0vw;
+    cursor: pointer;
+    background-color: #FF2147;
+}
+
+.add-product-name input {
+    width: 30vw;
+    height: 4vh;
+    outline: none;
+    border: 1px solid rgba(86, 86, 86, 0.534);
+    border-radius: 1vw 0vh 2vh 0vw;
+    padding: 3vh 1vw;
+    
+}
+
+.add-product-description {
+    width: 31vw;
+    height: 18vh;
+    overflow: hidden;
+
+
+}
+
+.add-product-description textarea {
+    padding: 1vh 1vw;
+    border: 1px solid rgba(81, 81, 81, 0.525);
+    border-radius: 1.5vw 0vh 4vh 0vw;
+    overflow-x: hidden;
+
+}
+
+.add-category-price {
+    display: flex;
+    gap: 5vw;
+}
+
+.add-category-price p {
+    margin: 2vh 0vw;
+}
+
+.add-category-price select  {
+    margin-bottom: 1.8vh;
+    padding: 1vh 1vw;
+    border: 1px solid rgba(81, 81, 81, 0.525);
+    border-radius: 1vw 0vh 2vh 0vw;
+
+}
+.add-category-price input  {
+    margin-bottom: 1.8vh;
+    padding: 1vh 1vw;
+    border: 1px solid rgba(81, 81, 81, 0.525);
+    border-radius: 1vw 0vh 2vh 0vw;
+
+}
+ .add-btn button{
+    width: 10vw;
+    padding: 1vh 2vw;
+    border-radius: 1vw 0vh 2vh 0vw;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.276);
+}
+.add-btn button:hover{
+    background-image: linear-gradient(to right top, #051937, #082944, #143a50, #254a5a, #395b64);
+    color: whitesmoke;
+    padding: 1vh 2vw;
+   
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.276);
+    cursor: pointer ;
+}
+@media (min-width:300px) and (max-width:900px) {
+    .add-imgae-upload img {
+        height:10vh;
+        width: auto;
+        margin: 0vh 0vw;
+        cursor: pointer;
+        background-color: #ff002b;
+    }
+    .add-category-price {
+        display: flex;
+        flex-direction: column;
+    }
+    .add-product-name input {
+        /* width: 30vw;
+        height: 4vh; */
+        outline: none;
+        border: 1px solid rgba(86, 86, 86, 0.534);
+        /* border-radius: 1vw 0vh 2vh 0vw; */
+        padding: 1vh 2vw;
+        
+    }
+    
+    .add-product-description {
+        /* width: 31vw;
+        height: 18vh; */
+        overflow: hidden;
+    
+    
+    }
+    
+    .add-product-description textarea {
+        padding: 0vh 1vw;
+        /* border: 1px solid rgba(81, 81, 81, 0.525); */
+        /* border-radius: 1.5vw 0vh 4vh 0vw; */
+        overflow-x: hidden;
+    
+    }
+    
+   .add-category-price p {
+        margin: 2vh 0vw;
+    }
+    
+    .add-category-price select  {
+       padding: 1vh 1vw;
+        border: 1px solid rgba(81, 81, 81, 0.525);
+        /* border-radius: 1vw 0vh 2vh 0vw; */
+    
+    }
+    .add-category-price input  {
+       
+        padding: 01vh 1vw;
+        border: 1px solid rgba(81, 81, 81, 0.525);
+        /* border-radius: 1vw 0vh 2vh 0vw; */
+    
+    }
+     .add-btn button{
+        width: 10vw;
+        padding: 1vh 2vw;
+        /* border-radius: 1vw 0vh 2vh 0vw; */
+        outline: none;
+        /* border: 1px solid rgba(0, 0, 0, 0.276); */
+    }
+    .add-btn button:hover{
+        background-image: linear-gradient(to right top, #051937, #082944, #143a50, #254a5a, #395b64);
+        color: whitesmoke;
+        padding:1vh 2vw;
+       
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, 0.276);
+        cursor: pointer ;
+    }
+}

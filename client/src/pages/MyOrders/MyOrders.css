@@ -1,0 +1,76 @@
+.userOrders {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.user-orders-order {
+    padding: 2vh 1vw;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    /* background-color: rgba(236, 232, 232, 0.386); */
+    background-color: rgba(227, 227, 227, 0.279);
+    justify-content: center;
+    align-items: center;
+}
+
+.user-orders-order p {
+    font-size: 2.2vh;
+
+    &:hover {
+        background-color: rgb(133, 131, 131);
+        color: aliceblue;
+        cursor: pointer;
+    }
+}
+
+.user-orders-order b {
+    font-size: 2.5vh;
+
+    &:hover {
+        background-color: rgb(169, 169, 169);
+        color: aliceblue;
+        cursor: pointer;
+    }
+}
+
+.user-orders-order button {
+    font-size: 1.2vw;
+    padding: 1px 8px;
+
+    &:hover {
+        background-color: green;
+        color: aliceblue;
+        cursor: pointer;
+    }
+}
+@media (max-width:700px) {
+    .user-orders-order {
+        padding: 2vh 1vw;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        row-gap: 10px;
+        /* background-color: rgba(236, 232, 232, 0.386); */
+        background-color: rgba(227, 227, 227, 0.279);
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:400px) {
+    .user-orders-order {
+        
+        grid-template-columns: 1fr  ;
+    }
+    .user-orders-order button {
+        font-size: 2vw;
+        padding: 1px 8px;
+    
+        &:hover {
+            background-color: green;
+            color: aliceblue;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap'); 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Moderustic;
+}
+hr{
+  border: 0;
+  height: 1px;
+  background-color: rgb(24, 24, 24);
+}
+.app-content{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+ gap: 2vh;
+
+}
