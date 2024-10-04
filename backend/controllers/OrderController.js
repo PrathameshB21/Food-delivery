@@ -8,8 +8,6 @@ require('dotenv').config()
 const key_id =process.env.razorPay_key_id;
 const key_secret = process.env.razorPay_key_secret;
 
-console.log(key_id);
-console.log(key_secret);
 
 
 
