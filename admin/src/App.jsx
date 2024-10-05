@@ -11,7 +11,7 @@ import { ToastContainer} from 'react-toastify';
 
 
 const App = () => {
-  const url = import.meta.env.VITE_APP_URL; 
+  const url ="https://food-delivery-backend-lmzt.onrender.com"; 
   return (
     <>
     <ToastContainer/>
