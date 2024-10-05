@@ -12,7 +12,7 @@ import { ToastContainer} from 'react-toastify';
 
 const App = () => {
 <<<<<<< HEAD
-  const url = "https://food-delivery-backend-g9td.onrender.com/"; 
+  const url = "https://food-delivery-backend-g9td.onrender.com"; 
 =======
   const url ="https://food-delivery-backend-lmzt.onrender.com"; 
 >>>>>>> 8fcdd27d8c239c723971a4b54cbd81e07076b4a5
