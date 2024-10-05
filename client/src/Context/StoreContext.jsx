@@ -8,7 +8,7 @@ const StoreContextProvider = (props) => {
     const [cartItem, setCartItem] = useState({});
     const [token, setToken] = useState('');
     const [food_list, setFoodList] = useState([])
-    const url=import.meta.env.VITE_APP_URL;
+    const url="https://food-delivery-backend-lmzt.onrender.com";
 
 
 
