@@ -11,7 +11,7 @@ import { ToastContainer} from 'react-toastify';
 
 
 const App = () => {
-  const url = import.meta.env.VITE_APP_URL; 
+  const url = "http://localhost:4000/"; 
   return (
     <>
     <ToastContainer/>
