@@ -2,10 +2,7 @@ import React from 'react'
 import './Sidebar.css'
 import { Assets } from '../../assets/assets';
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 8fcdd27d8c239c723971a4b54cbd81e07076b4a5
 import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
