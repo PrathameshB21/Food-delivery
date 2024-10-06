@@ -5,7 +5,7 @@ import axios from 'axios'
 import { toast } from 'react-toastify'
 import { useEffect } from 'react'
 import { Assets } from '../../assets/Assets'
-import { assets } from '../../../../client/src/assets/assets'
+
 
 
 const Order = ({ url }) => {
