@@ -63,12 +63,12 @@ const Add = ({url}) => {
           </div>
           <div className="add-product-name flex-col">
             <p>Product Name</p>
-            <input onChange={onchangeHandler} value={data.name} type="text" name='name' maxLength={14} placeholder='Type Here' />
+            <input onChange={onchangeHandler} value={data.name} type="text" name='name' maxLength={24} placeholder='Type Here' />
 
           </div>
           <duv className="add-product-description flex-col">
             <p>Product Description</p>
-            <textarea onChange={onchangeHandler} value={data.description} name="description" rows={3} maxLength={26} placeholder='Write content here' />
+            <textarea onChange={onchangeHandler} value={data.description} name="description" rows={3} maxLength={36} placeholder='Write content here' />
 
 
           </duv>
