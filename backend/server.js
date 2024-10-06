@@ -17,11 +17,7 @@ const OrderRouter = require('./routes/OrderRoutes');
 
 
 //api endpoint
-app.use(cors({
-  origin: 'https://food-delivery-frontend-7ccs.onrender.com', // Allow your frontend
-  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
-  credentials: true // Allow credentials if needed
-}));
+app.use(cors());
 app.use("/api/food",FoodRouter);
 app.use("/images", express.static('uploads'));;
 app.use("/api/user",userRouter);
