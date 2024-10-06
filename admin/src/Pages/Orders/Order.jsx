@@ -55,7 +55,7 @@ const Order = ({ url }) => {
         <div className="order-list">
           {orderData.map((order, index) => (
             <div key={index} className="order-item">
-              <img src={assets.parcel_icon} alt="" />
+              <img src={Assets.parcel_icon} alt="" />
               <div>
                 <p className="order-item-food">
                   {order.items.map((item, index) => {
