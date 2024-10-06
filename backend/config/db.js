@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 require('dotenv').config()
-// const MongoUrl = process.env.MongoDBUrl;
-const MongoUrl="mongodb+srv://PrathameshB21:PrathameshB21@cluster0.pr9i2be.mongodb.net/Food-Del?retryWrites=true&w=majority&appName=Cluster0&tls=true"
+const MongoUrl = process.env.MongoDBUrl;
 try { mongoose.connect(MongoUrl) }
 catch (error) {
     console.log(error);
