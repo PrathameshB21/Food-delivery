@@ -4,7 +4,8 @@ import { useState } from 'react'
 import axios from 'axios'
 import { toast } from 'react-toastify'
 import { useEffect } from 'react'
-import { Assets } from '../../assets/assets'
+import { Assets } from '../../assets/assets';
+
 
 
 
