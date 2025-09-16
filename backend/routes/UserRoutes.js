@@ -1,4 +1,4 @@
-const express=require('express')
+    const express=require('express')
 const{userLogin,registerUser}=require('../controllers/UserController.js')
 
 const userRouter=express.Router();

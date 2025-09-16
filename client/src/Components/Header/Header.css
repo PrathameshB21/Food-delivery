@@ -1,7 +1,7 @@
 .header{
     height:70vh;
    
-    background:url('header_img.png') no-repeat;
+    background:url('/header_img.png') no-repeat;
     background-size: contain;
     position: relative;
 }
@@ -63,7 +63,7 @@
 }
 @media (max-width:550px) {
     .header{
-        height:22vh;
+        height:22v h;
         width: auto;
         background:url('header_img.png') no-repeat;
         background-size:contain;

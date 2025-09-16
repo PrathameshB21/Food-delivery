@@ -5,3 +5,4 @@ admin/node_modules/
 backend/.env
 client/.env
 admin/.env
+/temp.txt

@@ -86,7 +86,7 @@ const validateResponse = async (req, res) => {
 
     } else {
       try {
-        await orderModel.findByIdAnddelete(order_id)
+        await orderModel.findByIdAndDelete(order_id)
         return res.status(400).json({ message: "Bad request " })
       } catch (err) {
         return res.status(500).json({ message: "internal server error in deleting " })

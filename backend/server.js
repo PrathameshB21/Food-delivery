@@ -15,6 +15,9 @@ const userRouter = require('./routes/UserRoutes');
 const cartRouter = require('./routes/CartRoutes');
 const OrderRouter = require('./routes/OrderRoutes');
 
+//port config
+// const PORT=process.env.PORT_Address;
+const PORT=4000;
 
 //api endpoint
 app.use(cors());
@@ -23,4 +26,6 @@ app.use("/images", express.static('uploads'));;
 app.use("/api/user",userRouter);
 app.use("/api/cart",cartRouter);
 app.use("/api/order",OrderRouter)
- app.listen(4000);
+ app.listen(PORT,()=>{
+    console.log(`Server running on port ${PORT}`)
+ });

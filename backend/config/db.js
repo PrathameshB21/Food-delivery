@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 require('dotenv').config()
 const MongoUrl = process.env.MongoDBUrl;
+
+
 try { mongoose.connect(MongoUrl) }
 catch (error) {
     console.log(error);
