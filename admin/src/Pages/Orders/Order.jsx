@@ -4,8 +4,9 @@ import { useState } from 'react'
 import axios from 'axios'
 import { toast } from 'react-toastify'
 import { useEffect } from 'react'
-import { Assets } from '../../assets/assets.js'
-import { assets } from '../../../../client/src/assets/assets'
+
+import { Assets } from '../../assets/assets';
+
 
 
 const Order = ({ url }) => {
@@ -54,7 +55,7 @@ const Order = ({ url }) => {
         <div className="order-list">
           {orderData.map((order, index) => (
             <div key={index} className="order-item">
-              <img src={assets.parcel_icon} alt="" />
+              <img src={Assets.parcel_icon} alt="" />
               <div>
                 <p className="order-item-food">
                   {order.items.map((item, index) => {
